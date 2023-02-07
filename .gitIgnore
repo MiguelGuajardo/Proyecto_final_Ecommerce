@@ -1,0 +1,8 @@
+# Ignora la carpeta node_modules
+node_modules
+# Ignora los archivos relacionados a API keys
+.env
+# Ignora la carpeta en relación a las imagenes personales
+uploads
+# Ignora la carpeta en relación a la db
+db
