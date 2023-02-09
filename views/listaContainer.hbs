@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/listContainer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Tienda Online</title>
+    <link rel="icon" type="image/png" href="images/favicon.pgn">
+</head>
+<body>
+        <header class="main-header">
+            <div class="container container--flex">
+                <div class="main-header__container">
+                <h1 class="main-header__title">BIKES</h1>
+                <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+                <nav class="main-nav" id="main-nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="" class="menu__link">HOME</a></li>
+                        <li class="menu__item"><a href="/profile" class="menu__link">PROFILE</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">SHOP</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">CONTACT</a></li>
+                        <li class="menu__item">
+                            <form action="/logout" method="get">
+                                <button class="btn_logout menu__link" id="botónLogOut">LOGOUT</button>
+                            </form>
+                        </li>
+                    </ul>
+                </nav>
+                </div>
+                <div class="main-header__container">
+                    <span class="main-header__help">Need Help</span>
+                    <p class="main-header__help"><i class="fas fa-phone"> 11-22334455 </i></p>
+                </div>
+                <div class="main-header__container">
+                    <span class="main-header__link" href=""><i class="fas fa-user"></i>{{this.alias}}</span>
+                    <a class="main-header__btn" href="">My Cart <i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </header>
+        <div class="container container-slider">
+            <div class="slider" id="slider">
+                <div class="slider__section">
+                    <img src="images/slider1.webp" alt="" class="slider__img">
+                    <div class="slider__content">
+                        <h2 class="slider__title">Bikes Sunshine</h2>
+                        <a href="" class="slider__link">SHOP NOW</a>
+                    </div>
+                </div>
+                <div class="slider__section">
+                    <img src="images/slider2.webp" alt="" class="slider__img">
+                    <div class="slider__content">
+                        <h2 class="slider__title">Payment methods</h2>
+                        <a href="" class="slider__link">See more</a>
+                    </div>
+                </div>
+                <div class="slider__section">
+                    <img src="images/slider3.webp" alt="" class="slider__img">
+                    <div class="slider__content">
+                        <h2 class="slider__title">Topmega bikes</h2>
+                        <a href="" class="slider__link">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+        </div>
+        <main class="container main">
+            <h2 class="main-title">New Bikes for you</h2>
+            <section class="container-products" id="container-products">
+                {{#each products}}
+                    <div class="product">
+                        <img src="{{this.thumbnail}}" alt="{{this.title}}" class="product__img">
+                        <div class="product__description">
+                            <h3 class="product__title">{{this.title}}</h3>
+                            <span class="product__price">${{this.price}}</span>
+                        </div>
+                        <a class="product__link" href=""><i class="product__icon fas fa-cart-plus"></i></a>
+                    </div>
+                {{/each}}
+                </div>
+            </section>
+        </main>
+        <footer class="main-footer">
+            <div class="footer__section">
+                <h2 class="footer__title">About Us</h2>
+                <p class="footer__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi maiores modi voluptates quis iusto illum odio non voluptatibus ratione est sed, atque rerum. Maiores nam commodi dolores dolore minus nostrum!</p>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Location:</h2>
+                <p class="footer__txt">Av L N Alem 60 Trenque Lauquen Buenos Aires</p>
+                <h2 class="footer__title">Contact:</h2>
+                <p class="footer__txt">Phone: +54 1122334455</p>
+                <p class="footer__txt">Email: TiendaOnline@gmail.com</p>
+            </div>
+            <div class="footer__section">
+                <h2 class="footer__title">Quick Links:</h2>
+                <a href="" class="footer__link">Home</a>
+                <a href="/profile" class="footer__link">Profile</a>
+                <a href="" class="footer__link">Shop</a>
+                <a href="" class="footer__link">Contact</a>
+                <form action="/logout" method="get">
+                    <button class="btn_logout-footer footer__link" id="botónLogOut">Logout</button>
+                </form>
+            </div>
+            <p class="copy">
+                © Copyright 2022 - Todos los derechos reservados |  Miguel Angel Guajardo
+            </p>
+        </footer>
+
+        <script src="js/listContainer.js"></script>
+        <script src="js/menu.js"></script>
+</body>
+</html>

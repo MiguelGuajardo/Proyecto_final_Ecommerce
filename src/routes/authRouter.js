@@ -24,6 +24,10 @@ router.get("/",isAuthenticated, auth.authenticateHome )
 
 router.post("/", auth.productPost)
 
+router.get("/profile", isAuthenticated , auth.profile)
+
+router.post("/profile", upload.single('avatar'), auth.profileThumbnail)
+
 
 function isAuthenticated (req,res,next){
     if(req.isAuthenticated()){

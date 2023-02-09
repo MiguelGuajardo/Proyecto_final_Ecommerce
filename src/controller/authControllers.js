@@ -1,15 +1,15 @@
 const passport = require("passport")
-const Product = require("../model/productsModel")
+const Product = require("../model/ProductsModel")
 const sharp = require("sharp")
 const fs = require("fs")
-const INFO = require("../utils/info")
-const { fork } = require("child_process")
+const Logger = require("../utils/logger")
+const logger = new Logger()
 
 const login = (req,res,next)=>{
     res.render("login")
 }
 const loginPassport = passport.authenticate("local-login" ,{
-    successRedirect:"/",
+    successRedirect:"/lista",
     failureRedirect:"/login-error",
     passReqToCallback:true
 })
@@ -25,7 +25,7 @@ const register = (req,res,next)=>{
     res.render("register")
 }
 const registerPassport = passport.authenticate("local-register",{
-    successRedirect:"/",
+    successRedirect:"/lista",
     failureRedirect:"/register-error",
     passReqToCallback:true
 })
@@ -42,9 +42,10 @@ const authenticateHome = async(req,res,next)=>{
     res.render("index",{alias,datosProducts})
 }
 const productPost = async(req,res,next)=>{
-    const {title,price,thumbnail} =req.body
+    const {title,price,thumbnail,description} =req.body
     const newProduct = new Product()
     newProduct.title = title
+    newProduct.description = description
     newProduct.price = price
     newProduct.thumbnail = thumbnail
     await newProduct.save()

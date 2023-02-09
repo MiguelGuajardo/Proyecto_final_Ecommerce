@@ -1,5 +1,6 @@
 const { Router } = require('express');
 const ContainerMongoDB = require('../../containers/containerMongoDB');
+const Product = require("../../model/ProductsModel")
 
 
 class ProductsDaoMongo extends ContainerMongoDB{
@@ -11,7 +12,9 @@ class ProductsDaoMongo extends ContainerMongoDB{
         this.router.get('/', async (req, res) => {
             try {
                 let products = await super.getAll('products')
-                return res.json(products)
+                const datosProducts = await Product.find({}).lean()
+                res.render("listProduct", {datosProducts})
+                /* return res.json(products) */
             } catch (error) {
                 return res.send({error: `hubo un error al traer los productos ${err}`})
             }
@@ -21,22 +24,23 @@ class ProductsDaoMongo extends ContainerMongoDB{
             try {
                 let id = req.params.id;
                 let product = await super.getByID('products',id)
-                return res.json(product)
+                return res.json(product || "No hay productos")
             } catch (error) {
-                return res.send({error : `Producto no encontrado ${err}`})
+                return res.send({error : `Producto no encontrado ${error}`})
             }
         });
 
         this.router.post('/', async (req, res) => {
             try {
+                const {title,description,code,thumbnail,price,stock} = req.body
                 const product = {
                     date: new Date().toLocaleString(),
-                    name: req.body.name,
-                    description:req.body.description,
-                    code:req.body.code,
-                    thumbnail:req.body.thumbnail,
-                    price:req.body.price,
-                    stock:req.body.stock
+                    title: title,
+                    description:description,
+                    code:code,
+                    thumbnail:thumbnail,
+                    price:price,
+                    stock:stock
                 };
                 await super.save('products',product)
                 let products = await super.getAll('products');

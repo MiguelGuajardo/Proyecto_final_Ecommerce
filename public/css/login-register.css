@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-html { 
+html{
     height: 100%;
 }
 body{
@@ -194,6 +194,38 @@ body{
 }
 .redirect__login{
     padding: 5px 33px;
+}
+.redirect:hover{
+    background: #8b80f9;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #8b80f9, 0 0 25px #8b80f9, 0 0 50px #8b80f9,
+    0 0 100px #8b80f9;
+}
+.redirect__container{
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    width: 150px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(139, 128, 249, 0.6);
+    border-radius: 10px;
+}
+.redirect{
+    position: relative;
+    display: inline-block;
+    padding: 5px 14px;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 4px;
+    letter-spacing: 2px;
 }
 .redirect:hover{
     background: #8b80f9;

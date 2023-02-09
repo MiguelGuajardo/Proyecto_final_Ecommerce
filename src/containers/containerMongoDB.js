@@ -1,6 +1,9 @@
 const mongoose = require('mongoose');
-const {productModel} = require('../model/productsModel')
+const productModel = require('../model/ProductsModel')
 const cartModel = require('../model/cartModel')
+const {config} = require("../config/index")
+const Logger = require("../utils/logger")
+const logger = new Logger()
 
 mongoose.set("strictQuery", false);
 
@@ -9,10 +12,10 @@ class ContainerMongoDB {
         this.connection = connection
     }
     async startConnection() {
-        await mongoose.connect(this.connection,{
+        await mongoose.connect(config.DATABASE.mongo.mongoUrl,{
         serverSelectionTimeoutMS: 5000,
         })
-        console.log("Base de datos conectada")
+        logger.info("Base de datos conectada")
     }
     async getAll(collection) {
         try {
@@ -24,7 +27,7 @@ class ContainerMongoDB {
                 return allCarts
             }
         } catch (error) {
-            console.log(`No se obtuvieron los productos ${error}`);
+            logger.error(`No se obtuvieron los productos ${error}`)
         }
     }
 
@@ -39,7 +42,7 @@ class ContainerMongoDB {
                 return cart
             }
         } catch (error) {
-            console.log(`No se pudo obtener el producto ${error}`);
+            logger.error(`No se pudo obtener el producto ${error}`)
         }
         
     }
@@ -55,7 +58,7 @@ class ContainerMongoDB {
                 return saveCart
             }
         } catch (error) {
-            console.log(`Error al guardar el producto ${error}`);
+            logger.error(`Error al guardar el producto ${error}`)
         }
         
     }
@@ -84,7 +87,7 @@ class ContainerMongoDB {
                 return newCart
             }
         } catch (error) {
-            console.log(`Error al actualizar producto${error}`);
+            logger.error(`Error al actualizar producto${error}`)
         }
     }
     async deleteByID(collection,id){
@@ -98,7 +101,7 @@ class ContainerMongoDB {
                 return cart
             }
         } catch (error) {
-            console.log(`Error al eliminar producto${error}`);
+            logger.error(`Error al eliminar producto${error}`)
         }
     }
     async deleteProdCart(cartId,prodId, cart) {
@@ -109,10 +112,10 @@ class ContainerMongoDB {
                 let newCart = await cartModel.updateOne({_id:objId}, {$pull:{products:prod}})
                 return newCart
             } else {
-                console.log('No se encontró el producto para eliminarlo')
+                logger.warn('No se encontró el producto para eliminarlo')
             }
         } catch (error) {
-            console.log(`Error al eliminar el producto del carrito ${error}`)
+            logger.error(`Error al eliminar el producto del carrito ${error}`)
         }
     }
 
