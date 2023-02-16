@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/listContainer.css">
+    <link rel="stylesheet" href="css/pop-up.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>Tienda Online</title>
     <link rel="icon" type="image/png" href="images/favicon.pgn">
@@ -23,7 +24,7 @@
                         <li class="menu__item"><a href="" class="menu__link">CONTACT</a></li>
                         <li class="menu__item">
                             <form action="/logout" method="get">
-                                <button class="btn_logout menu__link" id="botónLogOut">LOGOUT</button>
+                                <button class="btn_default menu__link" id="botónLogOut">LOGOUT</button>
                             </form>
                         </li>
                     </ul>
@@ -35,7 +36,26 @@
                 </div>
                 <div class="main-header__container">
                     <span class="main-header__link" href=""><i class="fas fa-user"></i>{{this.alias}}</span>
-                    <a class="main-header__btn" href="">My Cart <i class="fas fa-shopping-cart"></i></a>
+                    <span class="btn_default main-header__btn" id="btn-cart" href="">My Cart <i class="fas fa-shopping-cart"></i></span>
+                    <div class="hide" id="visible">
+                    <section class="shopping__cart" id="shopping__cart">
+                        <div class="shopping__cart-container">
+                            <button class="btn_hide" id="btn_hide"><i class="fa-solid fa-xmark"></i></button>
+                            <h2 class="shopping__cart-txt">CARRITO</h2>
+                            <div class="shopping__cart-col shoppingCartItemContainer">
+                            </div>
+                            <div class="shopping__cart-total">
+                                <div class="shoppingCartQuantity">
+                                    <p class="shopping__cart-txt">TOTAL :</p>
+                                    <p class="shoppingCartTotal"> $0.00</p>
+                                </div>
+                                <div class=" shoppingCartButtonBuy">
+                                    <button class="comprarButton btn__addToCart">COMPRAR</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    </div>
                 </div>
             </div>
         </header>
@@ -70,13 +90,13 @@
             <h2 class="main-title">New Bikes for you</h2>
             <section class="container-products" id="container-products">
                 {{#each products}}
-                    <div class="product">
+                    <div class="product" data-id={{this._id}}>
                         <img src="{{this.thumbnail}}" alt="{{this.title}}" class="product__img">
                         <div class="product__description">
                             <h3 class="product__title">{{this.title}}</h3>
                             <span class="product__price">${{this.price}}</span>
                         </div>
-                        <a class="product__link" href=""><i class="product__icon fas fa-cart-plus"></i></a>
+                        <button class="btn_default btn__addToCart addToCart" href="">AGREGAR AL CARRITO</i></button>
                     </div>
                 {{/each}}
                 </div>
@@ -109,7 +129,29 @@
             </p>
         </footer>
 
+        <div class="pop-up">
+            <div class="pop-up-wrap">
+                <div class="pop-up-title">
+                    <h2>BIKES</h2>
+                    <p>Gracias por confiar en nosotros</p>
+                </div>
+                <div class="sendMail">
+                    <div class="line"></div>
+                    <i class="fa-sharp fa-regular fa-circle-xmark" id="close"></i>
+                    <div class="sub-content">
+                        <h2>MUCHAS GRACIAS</h2>
+                        <p>Pulsar el botón para poder mandarle la factura.</p>
+                        <form action="" method="POST">
+                            <button class="subs-send" type="submit">Enviar Factura</button>
+                        </form>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        
         <script src="js/listContainer.js"></script>
+        <script src="js/tienda.js"></script>
         <script src="js/menu.js"></script>
 </body>
 </html>

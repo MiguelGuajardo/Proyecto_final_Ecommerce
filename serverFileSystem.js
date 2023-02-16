@@ -2,6 +2,8 @@ const express = require("express")
 const {engine: exphbs} = require("express-handlebars")
 const PORT = process.env.PORT || 8080
 const auth = require("./src/routes/authRouter")
+const Logger = require("./src/utils/logger")
+const logger = new Logger()
 
 
 const app = express()
@@ -29,8 +31,8 @@ app.get("/info",(req,res)=>{
 })
 
 app.listen(PORT, ()=>{
-    console.log(`Escuchando en puerto ${PORT}`)
+    logger.info(`Escuchando en puerto ${PORT}`)
 })
 app.on("error",(error)=>{
-    console.log(`Error en servidor ${error}`)
+    logger.error(`Error en servidor ${error}`)
 })

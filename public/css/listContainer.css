@@ -119,9 +119,11 @@ img{
 .menu__item:hover .menu__link::before, .menu__item:hover .menu__link::after, .menu__item:hover .menu__link span::before,.menu__item:hover .menu__link span::after{
     opacity: 1;
 }
-.btn_logout{
+.btn_default{
     background-color: white;
+    z-index: 500 !important;
     border: white;
+    cursor: pointer;
 }
 .btn_logout-footer{
     background-color: #151515;
@@ -150,6 +152,91 @@ img{
 }
 .main{
     padding: 0 20px;
+}
+.shopping__cart{
+    opacity: 1;
+    visibility: visible;
+}
+.hide{
+    opacity: 0;
+    visibility: hidden;
+}
+.shopping__cart-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999999999;
+    background: #212121;
+    padding: 20px;
+    margin: 0;
+}
+.shopping__cart-txt{
+    text-align: center;
+    color: #FF4E00;
+}
+.shopping__cart-col{
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+}
+.shopping__cart-item{
+    display: flex;
+    align-items: center;
+}
+.shopping__cart-itemImage{
+    width: 100px;
+    border-radius: 5px;
+    margin: 1em;
+}
+.shopping__cart-itemTitle{
+    font-size: 1em;
+    color: white;
+    width: 10em;
+    margin-right: 1em;
+}
+.shopping__cart-itemPrice{
+    font-size: 1em;
+    color: white;
+    margin-right: 1em;
+}
+.shopping__cart-quantity{
+    display: flex;
+    justify-content: space-around;
+    width: 5em;
+}
+.shopping__cart-quantity input{
+    width: 3em;
+    height: 3em;
+}
+.btn_delete{
+    width: 3em;
+    height: 3em;
+}
+.btn_hide{
+    background: #212121;
+    border: none;
+    cursor: pointer;
+    color: red;
+}
+.shopping__cart-total{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.shoppingCartQuantity{
+    display: flex;
+}
+.shopping__cart-txt{
+    font-size: 1em;
+    color: white;
+    margin: 1em;
+}
+.shoppingCartTotal{
+    font-size: 1em;
+    color: white;
+    margin: 1em;
 }
 /* Estilos slider */
 .container-slider{
@@ -280,7 +367,21 @@ img{
 .product__link:hover{
     color: #FF4E00;
 }
-
+.btn__addToCart{
+    display: block;
+    border: 1px solid #FF4E00;
+    color: #151515;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    margin: 10px auto;
+    transition: all 0.5s;
+}
+.btn__addToCart:hover{
+    background: #FF4E00;
+    color: white;
+}
 /* Estilos footer */
 .main-footer{
     background: #151515;

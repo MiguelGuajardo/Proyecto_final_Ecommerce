@@ -5,8 +5,15 @@ const fs = require("fs")
 const Logger = require("../utils/logger")
 const logger = new Logger()
 
-const login = (req,res,next)=>{
-    res.render("login")
+const login = async (req,res,next)=>{
+    if(req.session?.user){
+        let datos = req.user
+    const {alias} = datos
+    const products = await Product.find({}).lean()
+        res.redirect("listaContainer",{alias,products})
+    }else{
+        res.render("login")
+    }
 }
 const loginPassport = passport.authenticate("local-login" ,{
     successRedirect:"/lista",
@@ -35,11 +42,7 @@ const logOut = (req, res, next) => {
     req.session.destroy()
   }
 const authenticateHome = async(req,res,next)=>{
-    let datos = req.user
-    let datosProducts = await Product.find({}).lean()
-    const {alias} = datos
-
-    res.render("index",{alias,datosProducts})
+    res.redirect("/login")
 }
 const productPost = async(req,res,next)=>{
     const {title,price,thumbnail,description} =req.body

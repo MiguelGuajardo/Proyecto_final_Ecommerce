@@ -5,6 +5,8 @@ const lista = require("../controller/listaControllers")
 
 router.get("/",isAuthenticated , lista.list)
 
+router.post("/", isAuthenticated,lista.checkOut)
+
 function isAuthenticated (req,res,next){
     if(req.isAuthenticated()){
         return next()

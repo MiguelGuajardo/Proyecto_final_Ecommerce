@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = __dirname+"/../api/";
+const Logger = require("../utils/logger")
+const logger = new Logger()
 
 class ContainerFiles {
     constructor(name) {
@@ -14,11 +16,11 @@ class ContainerFiles {
             return array
         } else {
             await fs.promises.writeFile(path+this.fileName, "[]", 'utf-8');
-            console.log({ Msg: "Created file" });
+            logger.info({ Msg: "Created file" })
             return []
         }
         } catch (error) {
-        console.log({Error: error});
+        logger.error({Error: error})
         }
     };
     async save(product){
@@ -62,7 +64,7 @@ class ContainerFiles {
                 return 1
             }
         } catch (error) {
-            console.log({Error: error})
+            logger.error({Error: error})
         }
     }
     async getByID(id) {
@@ -88,7 +90,7 @@ class ContainerFiles {
             }
             
         } catch (error) {
-            console.log({Error: error})
+            logger.error({Error: error})
         }
     }
     async deleteByID(id){
