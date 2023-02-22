@@ -1,9 +1,8 @@
 const mongoose = require('mongoose');
-const productModel = require('../model/productsModel')
+const productModel = require('../model/ProductsModel')
 const cartModel = require('../model/cartModel')
 const {config} = require("../config/index")
-const Logger = require("../utils/logger")
-const logger = new Logger()
+const logger = require("../utils/scriptLogger")
 
 mongoose.set("strictQuery", false);
 

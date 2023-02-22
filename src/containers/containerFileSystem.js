@@ -16,7 +16,6 @@ class ContainerFiles {
             return array
         } else {
             await fs.promises.writeFile(path+this.fileName, "[]", 'utf-8');
-            logger.info({ Msg: "Created file" })
             return []
         }
         } catch (error) {

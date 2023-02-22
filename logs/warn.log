@@ -50,3 +50,4 @@
 {"timestamp":"15/02/2023 15:24:00","level":"warn","message":"Ruta GET / no implementada","data":null}
 {"timestamp":"15/02/2023 15:24:10","level":"warn","message":"Ruta GET / no implementada","data":null}
 {"timestamp":"15/02/2023 17:51:20","level":"warn","message":"Ruta GET / no implementada","data":null}
+{"timestamp":"22/02/2023 19:17:50","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}

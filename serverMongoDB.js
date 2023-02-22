@@ -16,6 +16,8 @@ const cookieParser = require("cookie-parser")
 const passport = require("passport")
 const MongoStore = require("connect-mongo")
 const INFO = require("./src/utils/info")
+const cluster = require('cluster');
+const os = require('os')
 require("./src/passport/local-auth")
 
 
@@ -69,7 +71,6 @@ app.use("/lista", lista)
 /* Ruta info Sistema */
 app.get("/info", (req,res)=>{
     const data = INFO
-    logger.info(JSON.stringify(data))
     res.render("info", {data})
 })
 /* Ruta 404 */
@@ -80,9 +81,23 @@ app.all("*",(req,res)=>{
 })
 
 
-app.listen(PORT, ()=>{
-    logger.info(`Escuchando en puerto ${PORT}`)
-})
-app.on("error",(error)=>{
-    logger.error(`Error en servidor ${error}`)
-})
+if (config.SERVER.MODE === 'CLUSTER' && cluster.isPrimary) {        
+    const numCPUs = os.cpus().length
+
+    logger.info(`CLUSTER corriendo en nodo primario ${process.pid} - Puerto ${config.SERVER.PORT}`)
+    
+    for (let i = 0; i < numCPUs; i++) {
+        cluster.fork()
+    }
+
+    cluster.on('exit', worker => {
+        logger.warn(`Worker ${worker.process.pid} finalizado`)
+        cluster.fork()
+    });
+        
+} else {
+    const server = app.listen(config.SERVER.PORT, () => {
+        logger.info(`Proceso #${process.pid} escuchando en el puerto ${config.SERVER.PORT}`)
+    });
+    server.on("error", (error) => console.log(`Error en servidor ${error}`));
+}

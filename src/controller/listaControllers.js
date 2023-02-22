@@ -1,8 +1,7 @@
-const Product = require('../model/productsModel')
+const Product = require('../model/ProductsModel')
 const Cart = require("../model/cartModel")
 const nodemailer = require("nodemailer")
-const Logger = require("../utils/logger")
-const logger = new Logger()
+const logger = require("../utils/scriptLogger")
 
 const list = async (req,res,next)=>{
     let datos = req.user
@@ -20,12 +19,6 @@ const checkOut = async (req,res,next)=>{
         prod.qty = productsCart[property].qty
         prodArr.push({...prod, qty})
     }
-    /* prodArr.forEach(prod =>{
-        amount += prod[0].price * prod.qty
-    })
-    prodArr.forEach(prod =>{
-        prodTitle.push(prod[0].title)
-    }) */
     let datos = req.user
     const {alias,email,firstName,lastName} = datos
     const newCart = new Cart()
@@ -48,18 +41,6 @@ const checkOut = async (req,res,next)=>{
     if(productInCart.length > 0){
         await newCart.save()
     }
-    /* let cartInMoment = arrCart[arrCart.length - 1]
-    let productsInCart = cartInMoment["products"]
-    let amount = 0
-    productsInCart.forEach(prod =>{
-        amount += prod.price * prod.qty
-    }) */
-    /* if(amount != 0 & productsInCart.length !=0){
-        let datos = req.user
-        const {email,alias,firstName,lastName} = datos
-        sendEnvoiceToEmail(email,amount,firstName,lastName,productsInCart) 
-        next()
-    } */
         sendEnvoiceToEmail(email,firstName,lastName) 
     res.render("listaContainer", {products, alias})
 }

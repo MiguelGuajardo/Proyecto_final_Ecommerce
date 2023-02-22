@@ -2,8 +2,7 @@ const express = require("express")
 const {engine: exphbs} = require("express-handlebars")
 const PORT = process.env.PORT || 8080
 const auth = require("./src/routes/authRouter")
-const Logger = require("./src/utils/logger")
-const logger = new Logger()
+const logger = require("./src/utils/scriptLogger")
 
 
 const app = express()
@@ -29,7 +28,6 @@ app.use('/api/carrito', cartFileSystem.getRouter());
 app.get("/info",(req,res)=>{
     res.render("info")
 })
-
 app.listen(PORT, ()=>{
     logger.info(`Escuchando en puerto ${PORT}`)
 })

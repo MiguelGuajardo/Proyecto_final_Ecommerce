@@ -1,8 +1,7 @@
 const passport = require("passport")
 const LocalStrategy = require("passport-local").Strategy
 const nodemailer = require("nodemailer")
-const Logger = require("../utils/logger")
-const logger = new Logger()
+const logger = require("../utils/scriptLogger")
 
 const User = require("../model/User")
 

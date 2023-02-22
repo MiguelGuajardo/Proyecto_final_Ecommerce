@@ -1,9 +1,7 @@
 const passport = require("passport")
-const Product = require("../model/productsModel")
+const Product = require("../model/ProductsModel")
 const sharp = require("sharp")
 const fs = require("fs")
-const Logger = require("../utils/logger")
-const logger = new Logger()
 
 const login = async (req,res,next)=>{
     if(req.session?.user){
@@ -21,11 +19,9 @@ const loginPassport = passport.authenticate("local-login" ,{
     passReqToCallback:true
 })
 const login_error = (req,res,next)=>{
-    logger.info("Login error"),
     res.render('login-error')
 }
 const register_error = (req,res,next)=>{
-    logger.info("Register error"),
     res.render("register-error")
 }
 const register = (req,res,next)=>{
@@ -37,7 +33,6 @@ const registerPassport = passport.authenticate("local-register",{
     passReqToCallback:true
 })
 const logOut = (req, res, next) => {
-    logger.info("LogOut success"),
     res.redirect('/login');
     req.session.destroy()
   }
@@ -52,7 +47,6 @@ const productPost = async(req,res,next)=>{
     newProduct.price = price
     newProduct.thumbnail = thumbnail
     await newProduct.save()
-    logger.info("Product added successfully"),
     res.redirect("/")
 }
 const profile = (req,res)=>{
@@ -65,14 +59,12 @@ const profile = (req,res)=>{
 const profileThumbnail = async (req,res,next)=>{
     let datos = req.user
     const {email,firstName,lastName,alias,edad,direccion,creationDate,phone,_id} = datos
-
     const avatar = req.file
 
     const proccesedAvatar = sharp(avatar.buffer)
     const resizeAvatar = proccesedAvatar
     const resizeAvatarBuffer = await resizeAvatar.toBuffer()
     fs.writeFileSync(`public/uploads/${_id}.png`,resizeAvatarBuffer)
-    logger.info("Profile picture added successfully")
     const avatarImageId = `uploads/${_id}.png`
 
     res.render("profile",{email,firstName,lastName,alias,edad,direccion,creationDate,phone,avatarImageId})
