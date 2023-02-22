@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const ContainerMongoDB = require('../../containers/containerMongoDB');
-const Product = require("../../model/ProductsModel")
+const Product = require("../../model/productsModel")
 
 
 class ProductsDaoMongo extends ContainerMongoDB{

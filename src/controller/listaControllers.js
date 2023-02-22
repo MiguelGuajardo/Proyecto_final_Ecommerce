@@ -1,4 +1,4 @@
-const Product = require('../model/ProductsModel')
+const Product = require('../model/productsModel')
 const Cart = require("../model/cartModel")
 const nodemailer = require("nodemailer")
 const Logger = require("../utils/logger")
