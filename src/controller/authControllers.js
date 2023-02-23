@@ -1,5 +1,5 @@
 const passport = require("passport")
-const Product = require("../model/ProductsModel")
+const Product = require("../model/productsModel")
 const sharp = require("sharp")
 const fs = require("fs")
 

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const productModel = require('../model/ProductsModel')
+const productModel = require('../model/productsModel')
 const cartModel = require('../model/cartModel')
 const {config} = require("../config/index")
 const logger = require("../utils/scriptLogger")
