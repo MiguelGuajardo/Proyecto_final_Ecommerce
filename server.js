@@ -1,25 +1,22 @@
-const express = require('express');
-const PORT = process.env.PORT || 8080
-const app = express()
-const auth = require("./src/routes/authRouter")
-const lista = require("./src/routes/listaRouter")
+const express = require('express')
 const {config} = require("./src/config/index")
-const ProductsDaoMongo = require('./src/daos/products/prodDaoMongoDB');
-const CartDaoMongo = require('./src/daos/cart/cartDaoMongo');
-const productMongo = new ProductsDaoMongo()
-const cartMongo = new CartDaoMongo()
 const Logger = require("./src/utils/logger")
 const logger = new Logger()
 const {engine: exphbs} = require("express-handlebars")
+const INFO = require("./src/utils/info")
+const cluster = require('cluster');
+const os = require('os')
+const productsRouter = require('./src/routes/productsRoute.js')
+const listaRouter = require('./src/routes/listaRouter.js')
+const auth = require('./src/routes/authRouter.js')
 const session = require("express-session")
 const cookieParser = require("cookie-parser")
 const passport = require("passport")
 const MongoStore = require("connect-mongo")
-const INFO = require("./src/utils/info")
-const cluster = require('cluster');
-const os = require('os')
+require('./src/data/database.js')
 require("./src/passport/local-auth")
 
+const app = express()
 
 /* Config hbs */
 app.engine("hbs", exphbs({extname: ".hbs", defaultLayout: "main.hbs"}))
@@ -28,6 +25,9 @@ app.set("view engine", ".hbs")
 /* middlewares */
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
+
+app.use(express.static('./public'))
+
 const mongoOptions = { useNewUrlParser: true, useUnifiedTopology: true }
 const sessionConfig ={
     store: MongoStore.create({
@@ -56,18 +56,16 @@ app.use(passport.initialize())
 app.use(passport.session())
 app.use(cookieParser("secrett"))
 
-app.use(express.static('./public'))
 
 
 /* ROUTES */
+
 /* Ruta auth */
 app.use("/", auth)
-/* Ruta Agregar Productos Admin */
-app.use('/api/productos', productMongo.getRouter());
-/* Ruta Agregar productos usuarios */
-app.use('/api/carrito', cartMongo.getRouter());
-/* Ruta intefaz Ecommerce */
-app.use("/lista", lista)
+/* Ruta productos */
+app.use('/api/products', productsRouter)
+/* Ruta lista */
+app.use('/lista', listaRouter)
 /* Ruta info Sistema */
 app.get("/info", (req,res)=>{
     const data = INFO
@@ -99,5 +97,5 @@ if (config.SERVER.MODE === 'CLUSTER' && cluster.isPrimary) {
     const server = app.listen(config.SERVER.PORT, () => {
         logger.info(`Proceso #${process.pid} escuchando en el puerto ${config.SERVER.PORT}`)
     });
-    server.on("error", (error) => console.log(`Error en servidor ${error}`));
+    server.on("error", (error) => logger.error(`Error en servidor ${error}`));
 }

@@ -24,3 +24,351 @@
 {"timestamp":"22/02/2023 20:24:48","level":"info","message":"Base de datos conectada","data":null}
 {"timestamp":"22/02/2023 20:24:48","level":"info","message":"Base de datos conectada","data":null}
 {"timestamp":"22/02/2023 20:24:48","level":"info","message":"Base de datos conectada","data":null}
+{"timestamp":"28/03/2023 22:02:24","level":"info","message":"Proceso #7744 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:02:25","level":"info","message":"Base de datos conectada","data":null}
+{"timestamp":"28/03/2023 22:03:13","level":"warn","message":"Ruta GET /api/productos' no implementada","data":null}
+{"timestamp":"28/03/2023 22:03:13","level":"warn","message":"Ruta GET /api/css/404.css no implementada","data":null}
+{"timestamp":"28/03/2023 22:03:13","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:03:16","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:03:50","level":"info","message":"Proceso #18116 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:03:51","level":"info","message":"Base de datos conectada","data":null}
+{"timestamp":"28/03/2023 22:03:54","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:04:16","level":"info","message":"Proceso #2616 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:04:17","level":"info","message":"Base de datos conectada","data":null}
+{"timestamp":"28/03/2023 22:05:00","level":"info","message":"Proceso #4824 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:05:01","level":"info","message":"Base de datos conectada","data":null}
+{"timestamp":"28/03/2023 22:05:16","level":"info","message":"Proceso #7932 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:05:17","level":"info","message":"Base de datos conectada","data":null}
+{"timestamp":"28/03/2023 22:05:59","level":"info","message":"Proceso #14848 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:05:59","level":"info","message":"Base de datos conectada","data":null}
+{"timestamp":"28/03/2023 22:08:10","level":"info","message":"Proceso #17416 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:08:11","level":"info","message":"Base de datos conectada","data":null}
+{"timestamp":"28/03/2023 22:08:32","level":"info","message":"Proceso #11824 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:08:32","level":"info","message":"Base de datos conectada","data":null}
+{"timestamp":"28/03/2023 22:14:52","level":"info","message":"Proceso #8216 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:15:18","level":"info","message":"Proceso #14572 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:15:26","level":"info","message":"Proceso #13636 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:16:24","level":"info","message":"Proceso #16768 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:17:25","level":"info","message":"Proceso #8260 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:17:51","level":"info","message":"Proceso #10832 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:17:57","level":"info","message":"Proceso #14928 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:17:59","level":"warn","message":"Ruta GET / no implementada","data":null}
+{"timestamp":"28/03/2023 22:18:01","level":"warn","message":"Ruta GET / no implementada","data":null}
+{"timestamp":"28/03/2023 22:18:13","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"28/03/2023 22:19:58","level":"info","message":"Proceso #300 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:20:07","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:21:22","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:22:02","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:22:20","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:23:19","level":"info","message":"Proceso #1560 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:23:34","level":"warn","message":"Ruta GET /api/style=%22width: no implementada","data":null}
+{"timestamp":"28/03/2023 22:23:34","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:25:06","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:26:33","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:27:20","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:27:24","level":"warn","message":"Ruta GET /logout? no implementada","data":null}
+{"timestamp":"28/03/2023 22:27:27","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:30:02","level":"info","message":"Proceso #10904 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:30:03","level":"info","message":"Base de datos conectada","data":null}
+{"timestamp":"28/03/2023 22:32:46","level":"info","message":"Proceso #3036 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:33:06","level":"info","message":"Proceso #11360 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:33:22","level":"info","message":"Proceso #16172 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:33:52","level":"info","message":"Proceso #14132 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:35:30","level":"info","message":"Proceso #14616 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:36:05","level":"info","message":"Proceso #15340 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:37:24","level":"info","message":"Proceso #17428 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:37:34","level":"info","message":"Proceso #17420 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:37:39","level":"info","message":"Proceso #9732 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:37:59","level":"info","message":"Proceso #17244 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:39:19","level":"info","message":"Proceso #16972 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:40:29","level":"info","message":"Proceso #16788 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:40:36","level":"info","message":"Proceso #7408 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:41:56","level":"info","message":"Proceso #2840 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:42:51","level":"info","message":"Proceso #12320 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:43:51","level":"info","message":"Proceso #12308 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:43:57","level":"info","message":"Proceso #5756 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:44:07","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:44:13","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:45:20","level":"warn","message":"Ruta POST / no implementada","data":null}
+{"timestamp":"28/03/2023 22:45:29","level":"info","message":"Proceso #15208 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:45:58","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:46:12","level":"warn","message":"Ruta POST / no implementada","data":null}
+{"timestamp":"28/03/2023 22:46:19","level":"info","message":"Proceso #2520 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:47:44","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:47:48","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:47:59","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"28/03/2023 22:48:14","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"28/03/2023 22:48:19","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:49:04","level":"info","message":"Proceso #9892 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:49:08","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:49:19","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"28/03/2023 22:51:16","level":"info","message":"Proceso #14248 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:52:20","level":"info","message":"Proceso #12860 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:53:51","level":"info","message":"Proceso #12756 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:54:15","level":"info","message":"Proceso #9100 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:54:16","level":"info","message":"Proceso #10028 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:56:04","level":"info","message":"Proceso #11180 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:56:53","level":"info","message":"Proceso #420 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:57:31","level":"info","message":"Proceso #16732 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:57:36","level":"info","message":"Proceso #6084 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:57:47","level":"info","message":"Proceso #3008 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:58:25","level":"info","message":"Proceso #12116 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:58:51","level":"info","message":"Proceso #3616 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 22:59:33","level":"info","message":"Proceso #5096 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 23:02:45","level":"info","message":"Proceso #508 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 23:03:52","level":"info","message":"Proceso #9592 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 23:04:04","level":"info","message":"Proceso #17004 escuchando en el puerto 8080","data":null}
+{"timestamp":"28/03/2023 23:05:23","level":"info","message":"Proceso #288 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 07:53:40","level":"info","message":"Proceso #9476 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 07:55:12","level":"info","message":"Proceso #16156 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 07:59:10","level":"info","message":"Proceso #8432 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 07:59:57","level":"info","message":"Proceso #12612 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:00:32","level":"info","message":"Proceso #8240 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:01:29","level":"info","message":"Proceso #17380 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:02:33","level":"info","message":"Proceso #4104 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:02:34","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"29/03/2023 08:02:51","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"29/03/2023 08:05:11","level":"info","message":"Proceso #9136 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:05:25","level":"info","message":"Proceso #4528 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:06:08","level":"info","message":"Proceso #8120 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:06:13","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"29/03/2023 08:06:26","level":"info","message":"Proceso #8428 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:06:37","level":"info","message":"Proceso #2092 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:10:15","level":"info","message":"Proceso #7124 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:12:01","level":"info","message":"Proceso #2848 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:12:17","level":"warn","message":"Ruta POST /lista no implementada","data":null}
+{"timestamp":"29/03/2023 08:12:17","level":"warn","message":"Ruta POST /lista no implementada","data":null}
+{"timestamp":"29/03/2023 08:12:32","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"29/03/2023 08:14:11","level":"info","message":"Proceso #280 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:14:15","level":"info","message":"Proceso #6492 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:14:18","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"29/03/2023 08:15:37","level":"info","message":"Proceso #17564 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:18:46","level":"info","message":"Proceso #3132 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:19:15","level":"info","message":"Proceso #4076 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:23:45","level":"info","message":"Proceso #13928 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:25:12","level":"info","message":"Proceso #13328 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:32:09","level":"info","message":"Proceso #15716 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:32:17","level":"info","message":"Proceso #13920 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:39:52","level":"info","message":"Proceso #11780 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:41:32","level":"info","message":"Proceso #276 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:41:34","level":"info","message":"Proceso #1912 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:41:52","level":"info","message":"Proceso #13368 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:44:02","level":"info","message":"Proceso #13928 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:45:10","level":"info","message":"Proceso #12172 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:46:14","level":"info","message":"Proceso #248 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:47:56","level":"info","message":"Proceso #13480 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:48:44","level":"info","message":"Proceso #1340 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:49:42","level":"info","message":"Proceso #5772 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:52:41","level":"info","message":"Proceso #9176 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:53:23","level":"info","message":"Proceso #8124 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:53:56","level":"info","message":"Proceso #496 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:55:54","level":"info","message":"Proceso #10624 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:56:42","level":"info","message":"Proceso #15560 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:58:16","level":"info","message":"Proceso #17348 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 08:58:59","level":"info","message":"Proceso #6376 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:02:24","level":"info","message":"Proceso #14420 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:02:56","level":"info","message":"Proceso #18340 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:03:30","level":"info","message":"Proceso #3720 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:09:48","level":"info","message":"Proceso #18236 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:10:02","level":"info","message":"Proceso #9732 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:11:23","level":"info","message":"Proceso #7632 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:11:52","level":"info","message":"Proceso #12332 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:12:11","level":"info","message":"Proceso #18016 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:12:33","level":"info","message":"Proceso #12848 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:12:52","level":"info","message":"Proceso #17880 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:13:53","level":"info","message":"Proceso #2160 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:14:29","level":"info","message":"Proceso #13080 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:16:32","level":"info","message":"Proceso #14516 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:16:48","level":"info","message":"Proceso #10792 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:17:09","level":"info","message":"Proceso #9688 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:17:24","level":"info","message":"Proceso #13496 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:17:35","level":"info","message":"Proceso #17056 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:17:51","level":"info","message":"Proceso #2184 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:17:57","level":"info","message":"Proceso #10056 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:18:00","level":"info","message":"Proceso #9400 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:18:10","level":"info","message":"Proceso #14992 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:19:17","level":"info","message":"Proceso #4072 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:21:11","level":"info","message":"Proceso #9076 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:21:24","level":"info","message":"Proceso #2264 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:21:28","level":"info","message":"Proceso #10088 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:21:34","level":"info","message":"Proceso #15772 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 09:21:57","level":"info","message":"Proceso #15336 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:11:09","level":"info","message":"Proceso #17976 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:15:15","level":"info","message":"Proceso #11584 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:17:00","level":"info","message":"Proceso #18016 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:17:46","level":"info","message":"Proceso #18348 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:18:44","level":"info","message":"Proceso #17584 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:19:08","level":"info","message":"Proceso #5168 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:28:14","level":"info","message":"Proceso #13928 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:32:28","level":"info","message":"Proceso #12420 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:33:17","level":"info","message":"Proceso #18080 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:33:25","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"29/03/2023 10:33:59","level":"info","message":"Proceso #17844 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:34:36","level":"info","message":"Proceso #13128 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:34:44","level":"info","message":"Proceso #9144 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:34:50","level":"info","message":"Proceso #12044 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:39:38","level":"info","message":"Proceso #7932 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:40:02","level":"info","message":"Proceso #5792 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:40:25","level":"info","message":"Proceso #15476 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:42:06","level":"info","message":"Proceso #13208 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:42:14","level":"info","message":"Proceso #3060 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:42:56","level":"info","message":"Proceso #5668 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:43:31","level":"info","message":"Proceso #2540 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:44:06","level":"info","message":"Proceso #6684 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:44:28","level":"info","message":"Proceso #12924 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:45:19","level":"info","message":"Proceso #980 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:45:29","level":"info","message":"Proceso #11740 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:45:51","level":"info","message":"Proceso #7700 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:46:30","level":"info","message":"Proceso #1568 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:46:35","level":"info","message":"Proceso #15380 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:46:40","level":"info","message":"Proceso #4428 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:46:52","level":"info","message":"Proceso #17944 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:47:00","level":"info","message":"Proceso #10836 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:47:26","level":"info","message":"Proceso #16812 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:48:48","level":"info","message":"Proceso #2672 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 10:59:50","level":"info","message":"Proceso #16628 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:00:20","level":"info","message":"Proceso #11608 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:00:31","level":"warn","message":"Ruta GET /api/productos no implementada","data":null}
+{"timestamp":"29/03/2023 11:00:31","level":"warn","message":"Ruta GET /api/css/404.css no implementada","data":null}
+{"timestamp":"29/03/2023 11:00:31","level":"warn","message":"Ruta GET /api/images/favicon.png no implementada","data":null}
+{"timestamp":"29/03/2023 11:00:35","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"29/03/2023 11:00:40","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"29/03/2023 11:00:45","level":"info","message":"Proceso #2000 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:01:07","level":"info","message":"Proceso #5704 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:01:36","level":"info","message":"Proceso #14264 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:01:56","level":"info","message":"Proceso #15892 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:02:37","level":"info","message":"Proceso #2196 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:03:20","level":"info","message":"Proceso #9412 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:03:50","level":"info","message":"Proceso #9472 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:05:23","level":"info","message":"Proceso #6420 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:05:38","level":"info","message":"Proceso #1596 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:06:17","level":"info","message":"Proceso #6060 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:08:46","level":"info","message":"Proceso #10800 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:09:06","level":"info","message":"Proceso #3016 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:10:06","level":"info","message":"Proceso #13728 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:10:26","level":"info","message":"Proceso #11740 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:10:28","level":"info","message":"Proceso #8080 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:10:43","level":"info","message":"Proceso #7804 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:11:30","level":"info","message":"Proceso #12084 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:11:55","level":"info","message":"Proceso #424 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:12:13","level":"info","message":"Proceso #1612 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:12:53","level":"warn","message":"Ruta GET /favicon.ico no implementada","data":null}
+{"timestamp":"29/03/2023 11:13:00","level":"warn","message":"Ruta GET /listar no implementada","data":null}
+{"timestamp":"29/03/2023 11:13:16","level":"info","message":"Proceso #10400 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:13:21","level":"info","message":"Proceso #11644 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:13:37","level":"info","message":"Proceso #12848 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:13:46","level":"info","message":"Proceso #7648 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:13:52","level":"info","message":"Proceso #16248 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:13:55","level":"info","message":"Proceso #18212 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:13:58","level":"info","message":"Proceso #6292 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:14:21","level":"info","message":"Proceso #3400 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:15:44","level":"info","message":"Proceso #2560 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:19:46","level":"info","message":"Proceso #10400 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:20:52","level":"info","message":"Proceso #5132 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:20:59","level":"info","message":"Proceso #508 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:21:01","level":"info","message":"Proceso #5892 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:21:14","level":"info","message":"Proceso #14984 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:21:41","level":"info","message":"Proceso #15696 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:22:01","level":"info","message":"Proceso #3616 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:22:16","level":"info","message":"Proceso #6084 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:24:25","level":"info","message":"Proceso #18208 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:24:48","level":"info","message":"Proceso #1436 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:28:16","level":"info","message":"Proceso #16340 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:28:29","level":"info","message":"Proceso #8956 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:30:44","level":"info","message":"Proceso #17400 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:33:01","level":"info","message":"Proceso #11268 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:34:27","level":"info","message":"Proceso #4184 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:34:28","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:42:11","level":"info","message":"Proceso #8452 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:42:11","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:42:31","level":"info","message":"Proceso #12632 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:42:31","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:43:23","level":"info","message":"Proceso #4172 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:43:24","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:43:54","level":"info","message":"Proceso #6112 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:43:55","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:44:40","level":"info","message":"Proceso #8740 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:44:41","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:45:02","level":"info","message":"Proceso #13008 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:45:03","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:45:05","level":"info","message":"Proceso #5712 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:45:05","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:45:42","level":"info","message":"Proceso #3744 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:45:43","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:46:07","level":"info","message":"Proceso #14920 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:46:07","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:48:51","level":"warn","message":"Ruta POST /lista no implementada","data":null}
+{"timestamp":"29/03/2023 11:48:51","level":"warn","message":"Ruta POST /lista no implementada","data":null}
+{"timestamp":"29/03/2023 11:52:56","level":"info","message":"Proceso #16836 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:52:57","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:53:15","level":"warn","message":"Ruta POST /lista no implementada","data":null}
+{"timestamp":"29/03/2023 11:53:15","level":"warn","message":"Ruta POST /lista no implementada","data":null}
+{"timestamp":"29/03/2023 11:56:11","level":"info","message":"Proceso #13128 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:56:12","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:56:51","level":"info","message":"Proceso #13732 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:56:52","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:57:19","level":"info","message":"Proceso #9412 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:57:20","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:58:01","level":"info","message":"Proceso #3400 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:58:02","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:58:15","level":"warn","message":"Ruta POST /lista no implementada","data":null}
+{"timestamp":"29/03/2023 11:58:15","level":"warn","message":"Ruta POST /lista no implementada","data":null}
+{"timestamp":"29/03/2023 11:58:45","level":"info","message":"Proceso #16168 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:58:46","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:58:50","level":"info","message":"Proceso #10584 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:58:51","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 11:59:58","level":"info","message":"Proceso #13216 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 11:59:58","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:00:37","level":"info","message":"Proceso #16040 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:00:38","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:03:01","level":"info","message":"Proceso #16244 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:03:01","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:03:21","level":"info","message":"Proceso #10576 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:03:22","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:04:23","level":"info","message":"Proceso #7944 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:04:23","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:07:04","level":"info","message":"Proceso #15260 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:07:05","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:07:18","level":"info","message":"Proceso #2616 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:07:18","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:08:22","level":"info","message":"Proceso #13536 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:08:22","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:09:59","level":"info","message":"Proceso #13852 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:10:05","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:10:09","level":"error","message":{"Message":"Incorrect password"},"data":null}
+{"timestamp":"29/03/2023 12:12:46","level":"info","message":"Proceso #11228 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:12:47","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:13:54","level":"info","message":"Proceso #2560 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:13:55","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:15:11","level":"info","message":"Proceso #14128 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:15:12","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:16:30","level":"info","message":"Proceso #15772 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:16:30","level":"info","message":"Dao Memory","data":null}
+{"timestamp":"29/03/2023 12:16:30","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:16:41","level":"info","message":"Proceso #15180 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:16:40","level":"info","message":"Dao Memory","data":null}
+{"timestamp":"29/03/2023 12:16:41","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:17:33","level":"info","message":"Proceso #13840 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:17:33","level":"info","message":"Dao File","data":null}
+{"timestamp":"29/03/2023 12:17:33","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:18:53","level":"info","message":"Proceso #12744 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:18:53","level":"info","message":"Dao File","data":null}
+{"timestamp":"29/03/2023 12:18:54","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:19:47","level":"info","message":"Proceso #10560 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:19:47","level":"info","message":"Dao File","data":null}
+{"timestamp":"29/03/2023 12:19:48","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:20:39","level":"info","message":"Proceso #4544 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:20:39","level":"info","message":"Dao File","data":null}
+{"timestamp":"29/03/2023 12:20:40","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:21:24","level":"info","message":"Proceso #14396 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:21:24","level":"info","message":"Dao File","data":null}
+{"timestamp":"29/03/2023 12:21:25","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:22:41","level":"info","message":"Proceso #13644 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:22:41","level":"info","message":"Dao File","data":null}
+{"timestamp":"29/03/2023 12:22:42","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:22:56","level":"info","message":"Proceso #10428 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:22:55","level":"info","message":"Dao File","data":null}
+{"timestamp":"29/03/2023 12:22:56","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 12:23:12","level":"info","message":"Proceso #10844 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 12:23:11","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"29/03/2023 12:23:13","level":"info","message":"Base de Datos mongoDB conectada","data":null}

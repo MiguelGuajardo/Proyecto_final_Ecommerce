@@ -1,20 +1,30 @@
-const Product = require('../model/productsModel')
+const axios = require('axios')
 const Cart = require("../model/cartModel")
 const nodemailer = require("nodemailer")
-const logger = require("../utils/scriptLogger")
+const Logger = require('../utils/logger.js')
+const logger = new Logger()
+async function getProductsWithAxios(){
+    try {
+        const products = await axios.get('http://localhost:8080/api/products')
+        return products.data
+    } catch (error) {
+        logger.error(error)
+    }
+}
 
-const list = async (req,res,next)=>{
+const getProducts = async(req,res) => {
     let datos = req.user
     const {alias} = datos
-    const products = await Product.find({}).lean()
-    res.render("listaContainer", {products, alias})
+    let products = await getProductsWithAxios()
+    res.render('listaContainer', {products,alias})
 }
+
 const checkOut = async (req,res,next)=>{
-    const products = await Product.find({}).lean()
+    const products = await getProductsWithAxios()
     const prodArr = []
     const productsCart = req.body.product
     for (const property in productsCart) {
-        const prod = await Product.find({_id:productsCart[property].id})
+        const prod = await await getProductsWithAxios()
         const qty = productsCart[property].qty
         prod.qty = productsCart[property].qty
         prodArr.push({...prod, qty})
@@ -108,7 +118,8 @@ async function sendEnvoiceToEmail(email,firstName,lastName){
             }
     } 
         }
-module.exports ={
-    list,
-    checkOut,
+
+module.exports = {
+    getProducts,
+    checkOut
 }

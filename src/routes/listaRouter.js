@@ -1,9 +1,9 @@
 const express = require("express")
 const router = express.Router()
 
-const lista = require("../controller/listaControllers")
+const lista = require('../controller/listaController.js')
 
-router.get("/",isAuthenticated , lista.list)
+router.get("/",isAuthenticated , lista.getProducts)
 
 router.post("/", isAuthenticated,lista.checkOut)
 
@@ -13,5 +13,4 @@ function isAuthenticated (req,res,next){
     }
     res.redirect("/login")
 }
-
 module.exports = router

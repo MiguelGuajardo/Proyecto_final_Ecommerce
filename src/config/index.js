@@ -27,6 +27,9 @@ const config = {
             mongoCollectionName: process.env.MONGO_COLLECTION_NAME,
             mongoSecret: process.env.CODE_SECRET
         }
+    },
+    app:{
+        persistence: process.env.PERSISTENCE
     }
 }
 
