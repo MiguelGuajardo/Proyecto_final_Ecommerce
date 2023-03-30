@@ -372,3 +372,410 @@
 {"timestamp":"29/03/2023 12:23:12","level":"info","message":"Proceso #10844 escuchando en el puerto 8080","data":null}
 {"timestamp":"29/03/2023 12:23:11","level":"info","message":"Dao Mongo","data":null}
 {"timestamp":"29/03/2023 12:23:13","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 13:36:43","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"29/03/2023 13:36:43","level":"info","message":"Proceso #6432 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 13:36:44","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 13:42:33","level":"info","message":"Proceso #12632 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 13:42:33","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"29/03/2023 13:42:34","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 13:48:14","level":"info","message":"Proceso #11928 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 13:48:14","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"29/03/2023 13:48:15","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 13:48:52","level":"info","message":"Proceso #2848 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 13:48:52","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"29/03/2023 13:48:53","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 13:51:45","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"29/03/2023 13:51:45","level":"info","message":"Proceso #16372 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 13:51:46","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 13:52:54","level":"info","message":"Proceso #5736 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 13:52:54","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"29/03/2023 13:52:55","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 13:58:55","level":"info","message":"Proceso #6492 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 13:58:54","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"29/03/2023 13:58:56","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"29/03/2023 14:20:10","level":"error","message":{"Message":"No User Found"},"data":null}
+{"timestamp":"29/03/2023 14:23:26","level":"info","message":"Proceso #11944 escuchando en el puerto 8080","data":null}
+{"timestamp":"29/03/2023 14:23:26","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"29/03/2023 14:23:27","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:08:12","level":"info","message":"Proceso #9552 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:08:11","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:08:12","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:14:22","level":"error","message":{"Message":"Incorrect password"},"data":null}
+{"timestamp":"30/03/2023 09:22:25","level":"info","message":"Proceso #13652 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:22:25","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:22:26","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:28:53","level":"info","message":"Proceso #3720 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:28:53","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:28:54","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:33:24","level":"info","message":"Proceso #14668 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:33:24","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:33:25","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:34:02","level":"info","message":"Proceso #13420 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:34:02","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:34:03","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:35:33","level":"info","message":"Proceso #7996 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:35:33","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:35:34","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:36:20","level":"info","message":"Proceso #11180 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:36:20","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:36:20","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:36:48","level":"warn","message":"Ruta GET /socket.io/socket.io.js no implementada","data":null}
+{"timestamp":"30/03/2023 09:37:00","level":"info","message":"Proceso #2840 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:36:59","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:37:01","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:38:07","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXdoG no implementada","data":null}
+{"timestamp":"30/03/2023 09:38:08","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXe04 no implementada","data":null}
+{"timestamp":"30/03/2023 09:38:10","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXeeB no implementada","data":null}
+{"timestamp":"30/03/2023 09:38:14","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXfc_ no implementada","data":null}
+{"timestamp":"30/03/2023 09:38:20","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXguQ no implementada","data":null}
+{"timestamp":"30/03/2023 09:38:25","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXi9j no implementada","data":null}
+{"timestamp":"30/03/2023 09:38:30","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXjQo no implementada","data":null}
+{"timestamp":"30/03/2023 09:38:35","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXki7 no implementada","data":null}
+{"timestamp":"30/03/2023 09:38:40","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXlzM no implementada","data":null}
+{"timestamp":"30/03/2023 09:38:46","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXnEw no implementada","data":null}
+{"timestamp":"30/03/2023 09:38:51","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXoeq no implementada","data":null}
+{"timestamp":"30/03/2023 09:38:58","level":"info","message":"Proceso #13236 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:38:58","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:38:59","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:38:59","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXq6c no implementada","data":null}
+{"timestamp":"30/03/2023 09:39:02","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXrDZ no implementada","data":null}
+{"timestamp":"30/03/2023 09:39:03","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXraf no implementada","data":null}
+{"timestamp":"30/03/2023 09:39:06","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXs98 no implementada","data":null}
+{"timestamp":"30/03/2023 09:39:10","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXtDq no implementada","data":null}
+{"timestamp":"30/03/2023 09:39:15","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXuV0 no implementada","data":null}
+{"timestamp":"30/03/2023 09:39:20","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXvlv no implementada","data":null}
+{"timestamp":"30/03/2023 09:39:26","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXx0- no implementada","data":null}
+{"timestamp":"30/03/2023 09:39:31","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXyIB no implementada","data":null}
+{"timestamp":"30/03/2023 09:39:36","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoXzZM no implementada","data":null}
+{"timestamp":"30/03/2023 09:39:38","level":"info","message":"Proceso #4340 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:39:38","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:39:39","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:39:41","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoX-qR no implementada","data":null}
+{"timestamp":"30/03/2023 09:39:43","level":"warn","message":"Ruta GET /js/socket.io/socket.io.js no implementada","data":null}
+{"timestamp":"30/03/2023 09:39:45","level":"warn","message":"Ruta GET /js/socket.io/socket.io.js no implementada","data":null}
+{"timestamp":"30/03/2023 09:41:02","level":"info","message":"Proceso #11352 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:41:02","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:41:03","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:41:19","level":"info","message":"Proceso #4384 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:41:19","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:41:20","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:41:33","level":"warn","message":"Ruta GET /js/socket.io/socket.io.js no implementada","data":null}
+{"timestamp":"30/03/2023 09:41:52","level":"warn","message":"Ruta GET /socket.io/socket.io.js no implementada","data":null}
+{"timestamp":"30/03/2023 09:42:00","level":"info","message":"Proceso #7932 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:42:00","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:42:01","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:42:03","level":"warn","message":"Ruta GET /socket.io/socket.io.js no implementada","data":null}
+{"timestamp":"30/03/2023 09:42:46","level":"info","message":"Proceso #11768 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:42:45","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:42:46","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:43:21","level":"info","message":"Proceso #10512 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:43:20","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:43:21","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:43:28","level":"warn","message":"Ruta GET /socket.io/socket.io.js no implementada","data":null}
+{"timestamp":"30/03/2023 09:44:29","level":"info","message":"Proceso #10528 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:44:29","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:44:30","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:44:39","level":"info","message":"Proceso #10280 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:44:39","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:44:40","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:44:45","level":"warn","message":"Ruta GET /node_modules/socket.io/client-dist/socket.io.js no implementada","data":null}
+{"timestamp":"30/03/2023 09:45:23","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZINE no implementada","data":null}
+{"timestamp":"30/03/2023 09:45:25","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZIkZ no implementada","data":null}
+{"timestamp":"30/03/2023 09:45:28","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZJP8 no implementada","data":null}
+{"timestamp":"30/03/2023 09:45:30","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZK5g no implementada","data":null}
+{"timestamp":"30/03/2023 09:45:36","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZLW_ no implementada","data":null}
+{"timestamp":"30/03/2023 09:45:42","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZM-i no implementada","data":null}
+{"timestamp":"30/03/2023 09:45:48","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZOSc no implementada","data":null}
+{"timestamp":"30/03/2023 09:45:54","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZPwM no implementada","data":null}
+{"timestamp":"30/03/2023 09:46:00","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZRO4 no implementada","data":null}
+{"timestamp":"30/03/2023 09:46:06","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZSrr no implementada","data":null}
+{"timestamp":"30/03/2023 09:46:12","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZUJa no implementada","data":null}
+{"timestamp":"30/03/2023 09:46:18","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZVnC no implementada","data":null}
+{"timestamp":"30/03/2023 09:46:24","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZXF1 no implementada","data":null}
+{"timestamp":"30/03/2023 09:46:30","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZYil no implementada","data":null}
+{"timestamp":"30/03/2023 09:46:36","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZaAc no implementada","data":null}
+{"timestamp":"30/03/2023 09:46:42","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZbeC no implementada","data":null}
+{"timestamp":"30/03/2023 09:46:48","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZd5w no implementada","data":null}
+{"timestamp":"30/03/2023 09:46:54","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZeZq no implementada","data":null}
+{"timestamp":"30/03/2023 09:47:00","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZg1e no implementada","data":null}
+{"timestamp":"30/03/2023 09:47:06","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZhVF no implementada","data":null}
+{"timestamp":"30/03/2023 09:47:12","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZiz5 no implementada","data":null}
+{"timestamp":"30/03/2023 09:47:18","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZkQr no implementada","data":null}
+{"timestamp":"30/03/2023 09:47:24","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZlub no implementada","data":null}
+{"timestamp":"30/03/2023 09:47:30","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZnMG no implementada","data":null}
+{"timestamp":"30/03/2023 09:47:36","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZoq3 no implementada","data":null}
+{"timestamp":"30/03/2023 09:47:42","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZqHp no implementada","data":null}
+{"timestamp":"30/03/2023 09:47:48","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZrlU no implementada","data":null}
+{"timestamp":"30/03/2023 09:47:54","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZtDA no implementada","data":null}
+{"timestamp":"30/03/2023 09:48:00","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZuh6 no implementada","data":null}
+{"timestamp":"30/03/2023 09:48:06","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZw8q no implementada","data":null}
+{"timestamp":"30/03/2023 09:48:12","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZxcV no implementada","data":null}
+{"timestamp":"30/03/2023 09:48:18","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZz4H no implementada","data":null}
+{"timestamp":"30/03/2023 09:48:24","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZ-Xy no implementada","data":null}
+{"timestamp":"30/03/2023 09:48:30","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoZ__l no implementada","data":null}
+{"timestamp":"30/03/2023 09:48:36","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoa1TP no implementada","data":null}
+{"timestamp":"30/03/2023 09:48:42","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoa2xN no implementada","data":null}
+{"timestamp":"30/03/2023 09:48:48","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoa4Ov no implementada","data":null}
+{"timestamp":"30/03/2023 09:48:54","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoa5sk no implementada","data":null}
+{"timestamp":"30/03/2023 09:49:00","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoa7Ka no implementada","data":null}
+{"timestamp":"30/03/2023 09:49:06","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoa8o9 no implementada","data":null}
+{"timestamp":"30/03/2023 09:49:12","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaAG6 no implementada","data":null}
+{"timestamp":"30/03/2023 09:49:18","level":"info","message":"Proceso #4188 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:49:18","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:49:19","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:49:19","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaBjq no implementada","data":null}
+{"timestamp":"30/03/2023 09:49:24","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaDBS no implementada","data":null}
+{"timestamp":"30/03/2023 09:49:30","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaEfI no implementada","data":null}
+{"timestamp":"30/03/2023 09:49:36","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaG6x no implementada","data":null}
+{"timestamp":"30/03/2023 09:49:38","level":"info","message":"Proceso #6268 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:49:37","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:49:38","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:49:42","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaHai no implementada","data":null}
+{"timestamp":"30/03/2023 09:49:48","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaJ2V no implementada","data":null}
+{"timestamp":"30/03/2023 09:49:54","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaKWC no implementada","data":null}
+{"timestamp":"30/03/2023 09:50:00","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaL-8 no implementada","data":null}
+{"timestamp":"30/03/2023 09:50:06","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaNRg no implementada","data":null}
+{"timestamp":"30/03/2023 09:50:12","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaOvU no implementada","data":null}
+{"timestamp":"30/03/2023 09:50:18","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaQNM no implementada","data":null}
+{"timestamp":"30/03/2023 09:50:24","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaRr4 no implementada","data":null}
+{"timestamp":"30/03/2023 09:50:30","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaTIo no implementada","data":null}
+{"timestamp":"30/03/2023 09:50:36","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaUmR no implementada","data":null}
+{"timestamp":"30/03/2023 09:50:42","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaWED no implementada","data":null}
+{"timestamp":"30/03/2023 09:50:48","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaXhz no implementada","data":null}
+{"timestamp":"30/03/2023 09:50:54","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaZ9t no implementada","data":null}
+{"timestamp":"30/03/2023 09:51:00","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaadU no implementada","data":null}
+{"timestamp":"30/03/2023 09:51:06","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoac5E no implementada","data":null}
+{"timestamp":"30/03/2023 09:51:12","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoadZ2 no implementada","data":null}
+{"timestamp":"30/03/2023 09:51:18","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaf0z no implementada","data":null}
+{"timestamp":"30/03/2023 09:51:24","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoagUY no implementada","data":null}
+{"timestamp":"30/03/2023 09:51:30","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoahyN no implementada","data":null}
+{"timestamp":"30/03/2023 09:51:36","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoajQ4 no implementada","data":null}
+{"timestamp":"30/03/2023 09:51:42","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaktm no implementada","data":null}
+{"timestamp":"30/03/2023 09:51:48","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoamLe no implementada","data":null}
+{"timestamp":"30/03/2023 09:51:54","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoanpp no implementada","data":null}
+{"timestamp":"30/03/2023 09:52:00","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoapH1 no implementada","data":null}
+{"timestamp":"30/03/2023 09:52:06","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoaqkg no implementada","data":null}
+{"timestamp":"30/03/2023 09:52:12","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoasCP no implementada","data":null}
+{"timestamp":"30/03/2023 09:52:18","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoatgH no implementada","data":null}
+{"timestamp":"30/03/2023 09:52:24","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoav7_ no implementada","data":null}
+{"timestamp":"30/03/2023 09:52:30","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoawbl no implementada","data":null}
+{"timestamp":"30/03/2023 09:52:34","level":"info","message":"Proceso #19128 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:52:34","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:52:35","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:52:36","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoay3X no implementada","data":null}
+{"timestamp":"30/03/2023 09:52:43","level":"info","message":"Proceso #14864 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:52:42","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:52:43","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:52:44","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoazXN no implementada","data":null}
+{"timestamp":"30/03/2023 09:52:49","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSoa_Ed no implementada","data":null}
+{"timestamp":"30/03/2023 09:52:55","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSob0iP no implementada","data":null}
+{"timestamp":"30/03/2023 09:53:01","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSob2A1 no implementada","data":null}
+{"timestamp":"30/03/2023 09:53:07","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSob3dp no implementada","data":null}
+{"timestamp":"30/03/2023 09:53:13","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSob55Z no implementada","data":null}
+{"timestamp":"30/03/2023 09:53:19","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSob6ZP no implementada","data":null}
+{"timestamp":"30/03/2023 09:53:25","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSob815 no implementada","data":null}
+{"timestamp":"30/03/2023 09:53:31","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSob9Uq no implementada","data":null}
+{"timestamp":"30/03/2023 09:53:37","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSobAyZ no implementada","data":null}
+{"timestamp":"30/03/2023 09:53:43","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSobCQS no implementada","data":null}
+{"timestamp":"30/03/2023 09:53:49","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSobDu1 no implementada","data":null}
+{"timestamp":"30/03/2023 09:53:51","level":"info","message":"Proceso #8752 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:53:51","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:53:52","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:53:55","level":"warn","message":"Ruta GET /socket.io/?EIO=4&transport=polling&t=OSobFLv no implementada","data":null}
+{"timestamp":"30/03/2023 09:54:48","level":"info","message":"Proceso #4072 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:54:48","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:54:49","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:55:45","level":"info","message":"Proceso #6128 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:55:45","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:55:46","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:56:24","level":"info","message":"Proceso #13816 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:56:24","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:56:25","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:57:34","level":"info","message":"Proceso #10440 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:57:34","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:57:35","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 09:59:53","level":"info","message":"Proceso #2972 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 09:59:53","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 09:59:54","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:01:10","level":"info","message":"Proceso #17836 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:01:10","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:01:11","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:02:48","level":"info","message":"Proceso #1676 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:02:47","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:02:48","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:04:10","level":"info","message":"Proceso #18492 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:04:09","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:04:10","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:05:49","level":"info","message":"Proceso #18484 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:05:49","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:05:50","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:06:04","level":"info","message":"Proceso #10756 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:06:04","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:06:05","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:07:02","level":"info","message":"Proceso #13820 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:07:01","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:07:02","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:07:20","level":"info","message":"Proceso #13500 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:07:20","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:07:21","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:07:24","level":"info","message":"Proceso #460 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:07:24","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:07:25","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:08:10","level":"info","message":"Proceso #18116 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:08:09","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:08:10","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:08:52","level":"info","message":"Proceso #17892 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:08:52","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:08:53","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:10:10","level":"info","message":"Proceso #15688 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:10:10","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:10:11","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:11:04","level":"info","message":"Proceso #17492 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:11:04","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:11:05","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:11:10","level":"info","message":"Proceso #16976 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:11:09","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:11:10","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:12:06","level":"info","message":"Proceso #4892 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:12:06","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:12:07","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:14:41","level":"info","message":"Proceso #20388 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:14:41","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:14:42","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:15:03","level":"info","message":"Proceso #3092 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:15:03","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:15:04","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:16:21","level":"info","message":"Proceso #12208 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:16:21","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:16:22","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:18:32","level":"info","message":"Proceso #15524 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:18:32","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:18:33","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:19:45","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:19:46","level":"info","message":"Proceso #2324 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:19:46","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:21:21","level":"info","message":"Proceso #2904 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:21:20","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:21:21","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:21:33","level":"info","message":"Proceso #18960 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:21:32","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:21:33","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:26:56","level":"info","message":"Proceso #19004 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:26:55","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:26:56","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:27:38","level":"info","message":"Proceso #14496 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:27:38","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:27:39","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:27:46","level":"info","message":"Proceso #14436 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:27:45","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:27:46","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:28:04","level":"info","message":"Proceso #5004 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:28:04","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:28:05","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:28:30","level":"info","message":"Proceso #10440 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:28:29","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:28:30","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:30:05","level":"info","message":"Proceso #6444 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:30:04","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:30:05","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:31:47","level":"info","message":"Proceso #3952 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:31:46","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:31:47","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:32:09","level":"info","message":"Proceso #13644 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:32:09","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:32:09","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:32:11","level":"info","message":"Proceso #12320 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:32:11","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:32:12","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:32:43","level":"info","message":"Proceso #12512 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:32:43","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:32:44","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:35:32","level":"info","message":"Proceso #18416 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:35:32","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:35:33","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:35:44","level":"info","message":"Proceso #19428 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:35:44","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:35:45","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:36:32","level":"info","message":"Proceso #20068 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:36:32","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:36:33","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:37:16","level":"info","message":"Proceso #17780 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:37:15","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:37:16","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:37:24","level":"info","message":"Proceso #20360 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:37:24","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:37:24","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:37:53","level":"info","message":"Proceso #17668 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:37:52","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:37:53","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:38:58","level":"info","message":"Proceso #11520 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:38:58","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:38:59","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:40:13","level":"info","message":"Proceso #9076 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:40:13","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:40:14","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:44:09","level":"info","message":"Proceso #12924 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:44:08","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:44:09","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:46:53","level":"info","message":"Proceso #19824 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:46:52","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:46:53","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:49:26","level":"info","message":"Proceso #6076 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:49:26","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:49:27","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:50:30","level":"info","message":"Proceso #5168 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:50:30","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:50:31","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:50:51","level":"info","message":"Proceso #5668 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:50:51","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:50:52","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:52:01","level":"info","message":"Proceso #8796 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:52:01","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:52:02","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:54:11","level":"info","message":"Proceso #15488 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:54:11","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:54:12","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:56:34","level":"info","message":"Proceso #13552 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:56:34","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:56:35","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:56:59","level":"info","message":"Proceso #17464 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:56:59","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:56:59","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 10:59:24","level":"info","message":"Proceso #12716 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 10:59:24","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 10:59:24","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 11:02:25","level":"info","message":"Proceso #608 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 11:02:25","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 11:02:26","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 11:13:20","level":"info","message":"Proceso #10072 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 11:13:20","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 11:13:21","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 11:13:43","level":"info","message":"Proceso #20332 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 11:13:43","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 11:13:44","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 11:14:00","level":"info","message":"Proceso #6260 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 11:14:00","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 11:14:01","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 11:14:56","level":"info","message":"Proceso #18988 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 11:14:56","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 11:14:57","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 11:15:36","level":"info","message":"Proceso #276 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 11:15:36","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 11:15:37","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 11:16:42","level":"info","message":"Proceso #18944 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 11:16:42","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 11:16:43","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 11:17:12","level":"info","message":"Proceso #12524 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 11:17:12","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 11:17:13","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 11:19:21","level":"warn","message":"Ruta GET /uploads/63ee5581a388711a3def9e4a.png no implementada","data":null}
+{"timestamp":"30/03/2023 11:20:48","level":"warn","message":"Ruta GET /uploads/63ee5581a388711a3def9e4a.png no implementada","data":null}
+{"timestamp":"30/03/2023 11:21:15","level":"info","message":"Proceso #18512 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 11:21:15","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 11:21:16","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 11:21:20","level":"info","message":"Proceso #15932 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 11:21:19","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 11:21:20","level":"info","message":"Base de Datos mongoDB conectada","data":null}
+{"timestamp":"30/03/2023 16:26:04","level":"info","message":"Proceso #4964 escuchando en el puerto 8080","data":null}
+{"timestamp":"30/03/2023 16:26:03","level":"info","message":"Dao Mongo","data":null}
+{"timestamp":"30/03/2023 16:26:05","level":"info","message":"Base de Datos mongoDB conectada","data":null}

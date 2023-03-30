@@ -94,8 +94,33 @@ if (config.SERVER.MODE === 'CLUSTER' && cluster.isPrimary) {
     });
         
 } else {
+
     const server = app.listen(config.SERVER.PORT, () => {
         logger.info(`Proceso #${process.pid} escuchando en el puerto ${config.SERVER.PORT}`)
     });
+    const io = require('socket.io')(server);
     server.on("error", (error) => logger.error(`Error en servidor ${error}`));
+
+    io.on('connection', onConnected);
+    function onConnected(socket){
+        console.log('User',socket.id);
+        socketsConnected.add(socket.id)
+
+        io.emit('clients-total',socketsConnected.size)
+
+        socket.on('disconnect', ()=>{
+            console.log(`User ${socket.id} disconnected`)
+            socketsConnected.delete(socket.id)
+            io.emit('clients-total',socketsConnected.size)
+        })
+
+        socket.on('message', (data)=>{
+            socket.broadcast.emit('chat-message', data)
+        })
+        socket.on('feedback', (data)=>{
+            socket.broadcast.emit('feedback', data)
+        })
+    }
 }
+
+let socketsConnected = new Set()
